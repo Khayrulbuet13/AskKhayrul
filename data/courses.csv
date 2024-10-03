@@ -1,0 +1,92 @@
+ID,Education_ID,CourseID,CourseName,CourseGrade
+2_ME450,2,ME450,Computational Fluid Dynamics,A
+2_ME402,2,ME402,Advance Manufacturing Science,A
+2_ME453,2,ME453,Math Methods In Engr II,A-
+2_BIOE497,2,BIOE497,Clinical Projects in BIOE,A-
+2_ME430,2,ME430,Advanced Fluid Mechanics,A-
+2_ME452,2,ME452,Math Methods In Engr I,A
+2_ME423,2,ME423,Heat & Mass Transfer,B+
+2_MECH495,2,MECH495,Advanced Finite Elements,A-
+2_ISE364,2,ISE364,Introduction to Machine Learning,A
+2_ME490,2,ME490,Thesis,A
+1_ME450,1,ME450,Computational Fluid Dynamics,A
+1_ME402,1,ME402,Advance Manufacturing Science,A
+1_ME453,1,ME453,Math Methods In Engr II,A-
+1_ME430,1,ME430,Advanced Fluid Mechanics,A-
+1_ME452,1,ME452,Math Methods In Engr I,A
+1_ME423,1,ME423,Heat & Mass Transfer,B+
+1_MECH495,1,MECH495,Advanced Finite Elements,A-
+1_ISE364,1,ISE364,Intro to Mach Learning,A
+1_ME440,1,ME440,General Examination,A
+4_CHEM114,4,CHEM114,Inorganic Quantitative Analysis Sessional,A-
+4_CHEM119,4,CHEM119,Chemistry 1,A-
+4_HUM102,4,HUM102,English Language Practice,B+
+4_HUM211,4,HUM211,Sociology,A-
+4_IPE105,4,IPE105,Principles of Cost and Management Accounting,A
+4_MATH191,4,MATH191,Differential and Integral Calculus,A-
+4_ME160,4,ME160,Mechanical Engineering Drawing 1,A
+4_PHY117,4,PHY117,Structure of Matter, Electricity
+4_SHOP170,4,SHOP170,Machine Shop,A
+4_CHEM143,4,CHEM143,Chemistry of Materials,A-
+4_EEE167,4,EEE167,Basic Electrical and Electronic Circuit,A
+4_EEE168,4,EEE168,Basic Electrical and Electronic Circuit Sessional,A-
+4_IPE104,4,IPE104,Engineering Graphics,A
+4_MATH193,4,MATH193,Vector, Matrix and Solid Geometry
+4_MME195,4,MME195,Engineering Materials I,A
+4_PHY102,4,PHY102,Physics Sessional,A-
+4_PHY163,4,PHY163,Waves and Oscillations, Physical Optics and Wave Mechanics
+4_SHOP160,4,SHOP160,Foundry and Welding Shop,B
+4_CSE295,4,CSE295,Computer Programming Techniques,B+
+4_CSE296,4,CSE296,Computer Programming Techniques Sessional,A-
+4_EEE271,4,EEE271,Electrical Machines and Electronics,A-
+4_EEE272,4,EEE272,Electrical Machines and Electronics Sessional,A
+4_IPE204,4,IPE204,Engineering Graphics and Introduction to CAD Sessional,A-
+4_MATH291,4,MATH291,Differential Equation, Vector Calculus and Laplace Transform
+4_ME245,4,ME245,Engineering Mechanics and Theory of Machines,B+
+4_MME295,4,MME295,Engineering Materials II,B+
+4_MME296,4,MME296,Engineering Materials Sessional,A-
+4_HUM277,4,HUM277,Fundamentals of Economics,A
+4_IPE301,4,IPE301,Measurement, Instrumentation and Control
+4_IPE302,4,IPE302,Measurement, Instrumentation and Control Sessional
+4_IPE305,4,IPE305,Manufacturing Process II,B+
+4_IPE306,4,IPE306,Manufacturing Processes II Sessional,A-
+4_IPE307,4,IPE307,Operations Research,B
+4_ME223,4,ME223,Fluid Mechanics and Machinery,B
+4_ME224,4,ME224,Fluid Mechanics and Machinery Sessional,B+
+4_IPE303,4,IPE303,Product Design I,A-
+4_IPE304,4,IPE304,Product Design I Sessional,B+
+4_IPE311,4,IPE311,Material Handling and Maintenance Management,B+
+4_IPE312,4,IPE312,Material Handling and Maintenance Management Sessional,A-
+4_IPE315,4,IPE315,Operations Management,B+
+4_IPE319,4,IPE319,Quality Management,A-
+4_IPE320,4,IPE320,Quality Management Sessional,A
+4_IPE322,4,IPE322,Business Communication Seminar-I,A-
+4_IPE329,4,IPE329,Numerical Analysis,A-
+4_IPE300,4,IPE300,Industrial Practice,A
+4_IPE317,4,IPE317,Product Design II,B+
+4_IPE318,4,IPE318,Product Design II Sessional,A-
+4_IPE400,4,IPE400,Project and Thesis,A
+4_IPE403,4,IPE403,Project and Environmental Management,B
+4_IPE407,4,IPE407,Ergonomics and Safety management,B
+4_IPE408,4,IPE408,Ergonomics and Safety Management Sessional,B+
+4_IPE419,4,IPE419,Computer Integrated Manufacturing,A-
+4_IPE451,4,IPE451,Supply Chain Management,B-
+4_IPE401,4,IPE401,Machine Tools,B+
+4_IPE402,4,IPE402,Machine Tools Sessional,A-
+4_IPE409,4,IPE409,CAD/CAM,B
+4_IPE410,4,IPE410,CAD/CAM Sessional,B+
+4_IPE411,4,IPE411,Industrial and Business Management,B
+4_IPE427,4,IPE427,Marketing Management,B
+4_IPE470,4,IPE470,Industrial Simulation Sessional,B+
+3_DSA1,3,DSA1,Machine Learning with Python,A
+3_DSA2,3,DSA2,Python for Data Science, AI & Development,A
+3_DSA3,3,DSA3,Data Visualization with Python,A
+3_DSA4,3,DSA4,Python Project for Data Science,A
+3_DSA5,3,DSA5,Data Analysis with Python,A
+3_DSA6,3,DSA6,Databases and SQL for Data Science with Python,A
+3_DSA7,3,DSA7,What is Data Science?,A
+3_DSA8,3,DSA8,Data Scientist Career Guide and Interview Preparation,A
+3_DSA9,3,DSA9,Applied Data Science Capstone,A
+3_DSA10,3,DSA10,Generative AI: Elevate Your Data Science Career,A
+3_DSA11,3,DSA11,Data Science Methodology,A
+3_DSA12,3,DSA12,Tools for Data Science,A

@@ -1,0 +1,67 @@
+version: '3'
+
+services:
+  chatbot_neo4j_etl:
+    build:
+      context: ./chatbot_neo4j_etl
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: "64M"
+    networks:
+      - isolated_network
+
+  chatbot_api:
+    build:
+      context: ./chatbot_api
+    env_file:
+      - .env
+    depends_on:
+      - chatbot_neo4j_etl
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.6"
+          memory: "768M"
+    networks:
+      - isolated_network
+
+  chatbot_frontend:
+    build:
+      context: ./chatbot_frontend
+    env_file:
+      - .env
+    depends_on:
+      - chatbot_api
+    ports:
+      - "8501:8501"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: "128M"
+    networks:
+      - isolated_network
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/lib/letsencrypt:/var/lib/letsencrypt
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h; done'"
+    networks:
+      - isolated_network
+    deploy:
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: "64M"
+
+networks:
+  isolated_network:
+    driver: bridge

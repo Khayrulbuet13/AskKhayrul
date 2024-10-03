@@ -1,0 +1,54 @@
+ID,skill,skill_type
+1,Python,Programming Languages
+2,C,Programming Languages
+3,MATLAB,Programming Languages
+4,HTML/CSS,Programming Languages
+5,Bash,Programming Languages
+6,Excel VBA,Programming Languages
+7,Office VBA,Programming Languages
+8,SQL,Programming Languages
+9,LaTeX,Programming Languages
+10,Arduino,Programming Languages
+11,PyTorch,Tools and Libraries
+12,TensorFlow,Tools and Libraries
+13,Keras,Tools and Libraries
+14,CUDA,Tools and Libraries
+15,Scikit-learn,Tools and Libraries
+16,Pandas,Tools and Libraries
+17,NumPy,Tools and Libraries
+18,OpenCV,Tools and Libraries
+19,Docker,Tools and Libraries
+20,Git,Tools and Libraries
+21,AutoCAD,Design and Simulation Software
+22,SolidWorks,Design and Simulation Software
+23,CATIA,Design and Simulation Software
+24,LAMMPS,Design and Simulation Software
+25,EspressoMD,Design and Simulation Software
+26,GROMACS,Design and Simulation Software
+27,Materials Studio,Design and Simulation Software
+28,Visual Molecular Dynamics (VMD),Design and Simulation Software
+29,COMSOL Multiphysics,Design and Simulation Software
+30,ANSYS Fluent,Design and Simulation Software
+31,Machine Learning Algorithms,Data Analysis and Machine Learning
+32,Deep Learning,Data Analysis and Machine Learning
+33,Data Visualization,Data Analysis and Machine Learning
+34,HPC Cluster Management,Data Analysis and Machine Learning
+35,High-Performance Computing,Data Analysis and Machine Learning
+36,Parallel Computing,Data Analysis and Machine Learning
+37,Cloud Computing,Data Analysis and Machine Learning
+38,Data Structures and Algorithms,Data Analysis and Machine Learning
+39,Object-Oriented Programming,Data Analysis and Machine Learning
+40,Analytical Thinking,Soft Skills
+41,Problem Solving,Soft Skills
+42,Teamwork and Collaboration,Soft Skills
+43,Adaptability,Soft Skills
+44,Time Management,Soft Skills
+45,Attention to Detail,Soft Skills
+46,Leadership,Soft Skills
+47,Communication Skills,Soft Skills
+48,Critical Thinking,Soft Skills
+49,Creativity,Soft Skills
+50,Project Management,Soft Skills
+51,Research Skills,Soft Skills
+52,Paraview,Design and Simulation Software
+53,AWS,Data Analysis and Machine Learning

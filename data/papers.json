@@ -1,0 +1,291 @@
+[
+    {
+        "id": 1,
+        "title": "Molecular dynamics simulation of the mechanical properties of CNT-polyoxymethylene composite with a reactive forcefield",
+        "author": "Khayrul Islam, Sourav Saha, A K M Masud",
+        "first_author": "True",
+        "journaltitle": "Molecular simulation",
+        "publisher": "Taylor and Francis Ltd.",
+        "volume": "46",
+        "issue": "5",
+        "pages": "380--387",
+        "date": "2020-03-23",
+        "doi": "10.1080/08927022.2020.1711904",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/08927022.2020.1711904",
+        "keywords": "CNT, polymer, polyoxymethylene, molecular dynamics, composite",
+        "skills": "24,27,28,35,36,40,46,51",
+        "abstract": {
+            "challenge": "Uncertainty in the improvement of mechanical properties when adding CNTs to specific polymers like polyoxymethylene (POM).",
+            "novelty": "Applied reactive force field molecular dynamics simulations to study the effect of SWCNTs on POM composite properties.",
+            "result": "Demonstrated significant mechanical property enhancements in SWCNT-reinforced POM composites by varying CNT diameter and volume fraction."
+        },
+        "contribution": "- Conceptualized and conducted reactive force field molecular dynamics (MD) simulations to study the impact of single-walled carbon nanotubes (SWCNTs) on the mechanical properties of polyoxymethylene (POM) composites. Analyzed how CNT diameter and volume fraction affected tensile strength and fracture toughness, visualized molecular interactions, and provided insights into optimizing CNT-polymer composites for enhanced performance."
+    },
+    {
+        "id": 2,
+        "title": "Respiratory droplet resuspension near surfaces: Modeling and analysis",
+        "author": "Mehdi Nikfar, Ratul Paul, Khayrul Islam, Meghdad Razizadeh, Anand Jagota, Yaling Liu",
+        "first_author": "False",
+        "journaltitle": "Journal of applied physics",
+        "publisher": "AIP Publishing",
+        "volume": "130",
+        "issue": "2",
+        "pages": "024702",
+        "date": "2021-07-14",
+        "doi": "10.1063/5.0050447",
+        "url": "https://aip.scitation.org/doi/abs/10.1063/5.0050447",
+        "keywords": "FEM, ANSYS, droplet detachment, COVID-19",
+        "skills": "30, 33, 40, 50, 51",
+        "abstract": {
+            "challenge": "Understanding the risk of secondary transmission of COVID-19 through resuspension of virus-laden droplets from surfaces.",
+            "novelty": "Developed a 3D two-phase model and conducted experiments to study droplet resuspension dynamics due to sudden agitation.",
+            "result": "Identified conditions under which respiratory droplets detach from surfaces, informing safety practices to reduce transmission."
+        },
+        "contribution": "Developed a 3D two-phase ANSYS VOF model  and developed UDF to study respiratory droplet resuspension dynamics, identifying conditions for droplet detachment from hydrophilic and hydrophobic surfaces, providing insights to minimize COVID-19 transmission risks. Conducted simulations and analyzed results."
+    },
+    {
+        "id": 3,
+        "title": "Adaptable microfluidic vessel-on-a-chip platform for investigating tumor metastatic transport in bloodstream",
+        "author": "Yue Wu, Yuyuan Zhou, Ratul Paul, Xiaochen Qin, Khayrul Islam, Yaling Liu",
+        "first_author": "False",
+        "journaltitle": "Analytical chemistry",
+        "publisher": "American Chemical Society (ACS)",
+        "volume": "94",
+        "issue": "35",
+        "pages": "12159--12166",
+        "date": "2022-09-06",
+        "doi": "10.1021/acs.analchem.2c02556",
+        "url": "http://dx.doi.org/10.1021/acs.analchem.2c02556",
+        "keywords": "cancer metastasis, circulating tumor cells, microfluidics, CTC adhesion",
+        "skills": "22,30,33,38,40,51",
+        "abstract": {
+            "challenge": "Limited understanding of the dynamic processes and biomechanical factors affecting tumor metastasis in the bloodstream.",
+            "novelty": "Developed an adaptable microfluidic vessel-on-a-chip platform to simulate key metastatic steps and varied microenvironments.",
+            "result": "Identified biomechanical conditions that enhance circulating tumor cell adhesion, offering insights for anticancer therapy development."
+        },
+        "contribution": "Developed a UDF to integrate cell attachment algorithm using ANSYS DPM and MD simulations to simulate cell behavior and interactions within the vessel networks. . Conducted CFD simulations in ANSYS Fluent to predict mass flow rates in hierarchical and nonhierarchical tumor vessel networks, analyzing nutrient availability and its impact on tumor growth, and compared models for effects on cell viability and growth rates."
+    },
+    {
+        "id": 4,
+        "title": "Microfluidic droplet-assisted fabrication of vessel-supported tumors for preclinical drug discovery",
+        "author": "Yue Wu, Yuwen Zhao, Yuyuan Zhou, Khayrul Islam, Yaling Liu",
+        "first_author": "False",
+        "journaltitle": "ACS applied materials & interfaces",
+        "publisher": "American Chemical Society (ACS)",
+        "volume": "15",
+        "issue": "12",
+        "pages": "15152--15161",
+        "date": "2023-03-29",
+        "doi": "10.1021/acsami.2c23305",
+        "url": "http://dx.doi.org/10.1021/acsami.2c23305",
+        "keywords": "core−shell tumor; microfluidic droplet; preclinical drug screening; tumor microenvironment; vessel-on-a-chip",
+        "skills": "29,33,51",
+        "abstract": {
+            "challenge": "Current in vitro tumor models lack the complexity of the tumor microenvironment, limiting their effectiveness in preclinical drug discovery.",
+            "novelty": "Developed an integrated engineering system using microfluidic droplets to create vessel-supported tumors that mimic the natural tumor microenvironment, including ECM and vasculature.",
+            "result": "Demonstrated that vessel-supported tumors exhibit increased drug resistance, providing a more accurate platform for preclinical drug screening and improving efficiency in drug discovery processes."
+        },
+        "contribution": "Conducted FEM and two-phase level set simulations in COMSOL Multiphysics to optimize flow conditions for microfluidic droplet generation, determining optimal parameters for creating vessel-supported tumors that mimic the natural tumor microenvironment."
+    },
+    {
+        "id": 5,
+        "title": "Coarse-grained molecular simulation of extracellular vesicle squeezing for drug loading",
+        "author": "Khayrul Islam, Meghdad Razizadeh, Yaling Liu",
+        "first_author": "True",
+        "journaltitle": "Physical chemistry chemical physics: PCCP",
+        "publisher": "Royal Society of Chemistry",
+        "volume": "25",
+        "issue": "17",
+        "pages": "12308--12321",
+        "date": "2023-05-03",
+        "doi": "10.1039/d3cp00387f",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d3cp00387f",
+        "keywords": "nanopore formation, extracellular vesicles, drug loading, molecular dynamics, nanofluidic channels",
+        "skills": "25, 36, 46, 50, 51, 52",
+        "abstract": {
+            "challenge": "Lack of understanding of nanopore formation and cargo loading during EV squeezing.",
+            "novelty": "Developed a systemic algorithm using coarse-grained molecular dynamics to simulate nanopore formation in EVs.",
+            "result": "Provided design guidelines for nanochannel geometry and squeezing velocity to optimize drug loading without damaging the EVs."
+        },
+        "contribution": "Developed a systemic algorithm using coarse-grained molecular dynamics to model nanopore formation in extracellular vesicles (EVs), optimizing nanochannel geometry and squeezing velocity for enhanced drug loading efficiency. Conducted simulations, visualized results, and provided design guidelines to prevent EV damage."
+    },
+    {
+        "id": 6,
+        "title": "An atomistic study of the tensile deformation of carbon nanotube-polymethylmethacrylate composites",
+        "author": "Anshu Raj, Sk Md Ahnaf Akif Alvi, Khayrul Islam, Mohammad Motalab, Shuozhi Xu",
+        "first_author": "False",
+        "journaltitle": "Polymers",
+        "publisher": "MDPI",
+        "volume": "15",
+        "issue": "13",
+        "pages": "2956",
+        "date": "2023-07-05",
+        "doi": "10.3390/polym15132956",
+        "url": "https://www.mdpi.com/2073-4360/15/13/2956",
+        "keywords": "molecular dynamics; carbon nanotube; polymethylmethacrylate; polymer; composite",
+        "skills": "24,27,28,35,36,40,51",
+        "abstract": {
+            "challenge": "Understanding how CNT addition affects mechanical properties of PMMA composites, given varying performance with different polymers.",
+            "novelty": "Conducted reactive force field molecular dynamics simulations on SWCNT-reinforced PMMA, varying CNT diameters, volume fractions, and temperatures.",
+            "result": "Demonstrated significant enhancement in mechanical properties of PMMA composites with small amounts of SWCNT; found double-walled CNTs offer roughly twice the tensile strength of SWCNTs."
+        },
+        "contribution": "Conceptualization of the paper, conducted molecular dynamics simulations, and analyzed the results."
+    },
+    {
+        "id": 7,
+        "title": "Rapid prototyping of high-resolution large format microfluidic device through maskless image guided in-situ photopolymerization",
+        "author": "Ratul Paul, Yuwen Zhao, Declan Coster, Xiaochen Qin, Khayrul Islam, Yue Wu, Yaling Liu",
+        "first_author": "False",
+        "journaltitle": "Nature communications",
+        "publisher": "",
+        "volume": "14",
+        "issue": "1",
+        "pages": "4520",
+        "date": "2023-07-27",
+        "doi": "10.1038/s41467-023-40119-x",
+        "url": "https://www.nature.com/articles/s41467-023-40119-x",
+        "keywords": "Microfluidic fabrication, Maskless lithography, image analysis, Rapid prototyping, Flow control",
+        "skills": "29,33,40,45,51",
+        "abstract": {
+            "challenge": "High cost, low resolution, and inefficiency of traditional microfluidic device prototyping methods limit wider adoption.",
+            "novelty": "Introduced image-guided in-situ maskless lithography (IGIs-ML) using dynamic image analysis and intermittent flow control.",
+            "result": "Achieved superior repeatability and fidelity in fabricating diverse, high-resolution microfluidic devices affordably and efficiently."
+        },
+        "contribution": "Developed computational simulations using a reaction-diffusion model in COMSOL Multiphysics to study the pattern polymerization process in image-guided in-situ maskless lithography (IGIs-ML), improving understanding of printability and enhancing the microfluidic device fabrication process."
+    },
+    {
+        "id": 8,
+        "title": "Acoustofluidic engineering of functional vessel-on-a-chip",
+        "author": "Yue Wu, Yuwen Zhao, Khayrul Islam, Yuyuan Zhou, Saeed Omidi, Yevgeny Berdichevsky, Yaling Liu",
+        "first_author": "False",
+        "journaltitle": "ACS biomaterials science & engineering",
+        "publisher": "American Chemical Society (ACS)",
+        "volume": "9",
+        "issue": "11",
+        "pages": "6273--6281",
+        "date": "2023-11-13",
+        "doi": "10.1021/acsbiomaterials.3c00925",
+        "url": "http://dx.doi.org/10.1021/acsbiomaterials.3c00925",
+        "keywords": "acoustofluidics; biofabrication; surface acoustic wave; vascular barrier function; vessel-on-a-chip",
+        "skills": "25, 29,40,41,45,51,52",
+        "abstract": {
+            "challenge": "Need for reproducible fabrication of in vitro vascular models with specific geometry.",
+            "novelty": "Utilized standing surface acoustic waves to pattern endothelial cells into designated geometries within hydrogels.",
+            "result": "Engineered functional vessel networks on-chip with high resolution, enhancing vascular research and regenerative therapy."
+        },
+        "contribution": "Developed computational simulations using COMSOL Multiphysics 5.6 to model the pressure distribution from interfering standing acoustic waves (SAWs) and implemented a permeability computational model employing the Cooke-Deserno three-bead membrane representation. Simulated dextran diffusion across the vascular membrane using the Lennard-Jones potential, enhancing the understanding of vascular barrier functions in engineered vessel networks."
+    },
+    {
+        "id": 9,
+        "title": "Deep learning-based predictive classification of functional subpopulations of hematopoietic stem cells and multipotent progenitors",
+        "author": "Shen Wang, Jianzhong Han, Jingru Huang, Khayrul Islam, Yuheng Shi, Yuyuan Zhou, Dongwook Kim, Jane Zhou, Zhaorui Lian, Yaling Liu, Jian Huang",
+        "first_author": "False",
+        "journaltitle": "Stem cell research & therapy",
+        "publisher": "Springer Science and Business Media LLC",
+        "volume": "15",
+        "issue": "1",
+        "pages": "74",
+        "date": "2024-03-13",
+        "doi": "10.1186/s13287-024-03682-8",
+        "url": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-024-03682-8",
+        "keywords": "Deep learning; Evi1 protein; Fluorescence-activated cell sorting; GFP; Hematopoietic stem cells; Multipotent progenitors; α-Catulin protein",
+        "skills": "1,11,12,13,15,16,17,18,31,32,33,35,36,40,41,45,51",
+        "abstract": {
+            "challenge": "Difficulty in distinguishing HSCs from MPPs based solely on morphology.",
+            "novelty": "Employed deep learning to classify murine HSCs and MPPs using light microscopy images without markers.",
+            "result": "Developed classifiers that reliably distinguish cell types and functional states, enabling rapid assessment without transplantation."
+        },
+        "contribution": "Developed and trained deep learning models to classify hematopoietic stem cells (HSCs) and multipotent progenitors (MPPs) using light microscopy images without markers, and analyzed the results to validate the performance of the classifiers."
+    },
+    {
+        "id": 10,
+        "title": "Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells",
+        "author": "Yuwen Zhao, Yue Wu, Khayrul Islam, Ratul Paul, Yuyuan Zhou, Xiaochen Qin, Qiying Li, Yaling Liu",
+        "first_author": "False",
+        "journaltitle": "ACS applied materials & interfaces",
+        "publisher": "American Chemical Society (ACS)",
+        "volume": "16",
+        "issue": "18",
+        "pages": "22839--22849",
+        "date": "2024-04-23",
+        "doi": "10.1021/acsami.4c00391",
+        "url": "https://pubs.acs.org/doi/full/10.1021/acsami.4c00391",
+        "keywords": "cancer immunotherapy; microfluidics; tumor microphysiology; vascular transport; vessel-tumor-on-chips",
+        "skills": "25, 38, 40, 41, 45, 51,52",
+        "abstract": {
+            "challenge": "Difficulty in observing and quantifying immune cell transport during cancer immunotherapy.",
+            "novelty": "Developed an advanced 3D vessel-tumor model to study T cell transport and interaction with tumors in vitro.",
+            "result": "Demonstrated the influence of endothelial glycocalyx on T cell transport and evaluated PD-1 inhibition effects on tumor killing."
+        },
+        "contribution": "Developed a coarse-grained molecular dynamics model using the Cooke-Deserno membrane representation technique to simulate the influence of vascular glycocalyx (VGCX) on ligand-receptor binding between T cells and endothelial cells, providing insights into immune cell transport during cancer immunotherapy."
+    },
+    {
+        "id": 11,
+        "title": "Tailoring polyamide nanocomposites: The synergistic effects of SWCNT chirality and maleic anhydride grafting",
+        "author": "Mehedi Hasan, Khayrul Islam, A K M Masud",
+        "first_author": "False",
+        "journaltitle": "ACS Applied Engineering Materials",
+        "publisher": "American Chemical Society (ACS)",
+        "volume": "2",
+        "issue": "6",
+        "pages": "1593--1602",
+        "date": "2024-06-28",
+        "doi": "10.1021/acsaenm.4c00155",
+        "url": "https://pubs.acs.org/doi/full/10.1021/acsaenm.4c00155",
+        "keywords": "CNT, molecular dynamics, polymer, composites, chirality",
+        "skills": "24,27,28,35,36,40,51",
+        "abstract": {
+            "challenge": "Enhancing mechanical properties of polyamide nanocomposites through effective reinforcement strategies.",
+            "novelty": "Investigated the synergistic effects of SWCNT chirality and maleic anhydride grafting using molecular dynamics simulations.",
+            "result": "Demonstrated significant improvements in mechanical strength at optimal MA concentrations due to specific SWCNT chirality."
+        },
+        "contribution": "Conceptualization of the paper, conducted molecular dynamics simulations, and analyzed the results."
+    },
+    {
+        "id": 12,
+        "title": "MIML: Multiplex Image Machine Learning for High Precision Cell Classification via Mechanical Traits within Microfluidic Systems",
+        "author": "Khayrul Islam, Ratul Paul, Shen Wang, Yuwen Zhao, Partho Adhikary, Qiying Li, Xiaochen Qin, and Yaling Liu",
+        "first_author": "True",
+        "journaltitle": "Under review",
+        "publisher": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "date": "",
+        "doi": "https://arxiv.org/abs/2309.08421",
+        "url": "https://arxiv.org/abs/2309.08421",
+        "keywords": "CNN, HCT, WBC, Cell classification, label-free",
+        "skills": "1,11,12,13,15,16,17,18,20,31,32,33,35,36,37,38,39,40,41,45,46,47,48,49,50,51",
+        "abstract": {
+            "challenge": "Existing label-free cell classification methods lack specificity and speed, especially for cells with similar morphology but different biomechanical properties.",
+            "novelty": "Developed a novel machine learning framework (MIML) that combines label-free cell images with biomechanical property data, utilizing morphological information often discarded in traditional models.",
+            "result": "Achieved a remarkable 98.3% accuracy in cell classification, significantly improving specificity and effectiveness for classifying white blood cells and tumor cells."
+        },
+        "contribution": "As the first author, I conceptualized, developed and implemented the Multiplex Image Machine Learning (MIML) framework, integrating label-free cell images with biomechanical data for precise cell classification. I led the machine learning training, visualization, and analysis, enhancing specificity in classifying white blood and tumor cells."
+    },
+    {
+        "id": 13,
+        "title": "Thesis: Predicting Drug Loading in Extracellular Vesicles through Coarse-Grained Molecular Dynamics Simulation",
+        "author": "Khayrul Islam, Yaling Liu",
+        "first_author": "True",
+        "journaltitle": "Physical chemistry chemical physics: PCCP",
+        "publisher": "Royal Society of Chemistry",
+        "volume": "25",
+        "issue": "17",
+        "pages": "12308--12321",
+        "date": "2023-05-03",
+        "doi": "10.1039/d3cp00387f",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d3cp00387f",
+        "keywords": "nanopore formation, extracellular vesicles, drug loading, molecular dynamics, nanofluidic channels",
+        "skills": "25, 36, 46, 50, 51, 52",
+        "abstract": {
+            "challenge": "Lack of understanding of nanopore formation and cargo loading during EV squeezing.",
+            "novelty": "Developed a systemic algorithm using coarse-grained molecular dynamics to simulate nanopore formation in EVs.",
+            "result": "Provided design guidelines for nanochannel geometry and squeezing velocity to optimize drug loading without damaging the EVs."
+        },
+        "contribution": "Developed a systemic algorithm using coarse-grained molecular dynamics to model nanopore formation in extracellular vesicles (EVs), optimizing nanochannel geometry and squeezing velocity for enhanced drug loading efficiency. Conducted simulations, visualized results, and provided design guidelines to prevent EV damage."
+    }
+    
+
+
+]

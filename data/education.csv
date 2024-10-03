@@ -1,0 +1,5 @@
+Education_ID,Institution,Location,Degree,Major,GPA,StartDate,EndDate,Awards,ThesisTitle
+1,Lehigh University,"Pennsylvania, USA",Ph.D.,Mechanical Engineering and Mechanics,3.84/4.00,Jan 2021,May 2025,P.C. Rossin College of Engineering fellowship,
+2,Lehigh University,"Pennsylvania, USA",M.S.,Mechanical Engineering and Mechanics,3.84/4.00,Jan 2021,May 2023,,Predicting Drug Loading in Extracellular Vesicles through Coarse-Grained Molecular Dynamics Simulation
+3,IBM,Online,Professional Certificate in Data Science,,,,Aug 2024,,
+4,Bangladesh University Engineering and Technology,"Dhaka, Bangladesh",B.Sc.,Industrial and Production Engineering,3.55/4.00,Jun 2014,Oct 2018,SCEA- PTAK prize global case study competition scholarship,Molecular dynamics simulation of the mechanical properties of CNT-polyoxymethylene composite with a reactive forcefield
