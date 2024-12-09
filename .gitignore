@@ -1,1 +1,10 @@
-.env_.env
+.env_
+.env
+.history/
+Custom_cv/
+chatbot_api/.DS_Store
+chatbot_api/src/.DS_Store
+chatbot_api/src/utils/__pycache__/
+data/.DS_Store
+
+

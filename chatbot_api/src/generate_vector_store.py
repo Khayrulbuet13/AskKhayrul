@@ -9,23 +9,22 @@ from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-# load_dotenv()
+load_dotenv()
 
 warnings.filterwarnings("ignore")
 from utils.async_utils import async_retry
+
 
 class DocumentVectorizer:
     def __init__(self, embeddings, vector_store_path="vector_store", distance_metric='cosine'):
         self.vector_store_path = vector_store_path
         self.embeddings = embeddings
         self.distance_metric = distance_metric
-        # self.neo4j_uri = os.getenv("NEO4J_URI")
-        # self.neo4j_user = os.getenv("NEO4J_USER")
-        # self.neo4j_password = os.getenv("NEO4J_PASSWORD")
 
-        self.neo4j_uri = 'neo4j+s://448e074a.databases.neo4j.io'
-        self.neo4j_user = 'neo4j'
-        self.neo4j_password = 'rH3HeRmKE7z2Y4vnHIxO60ZCIZEm9pO_6hd8TwStVEM'
+        # Load Neo4j credentials from environment variables
+        self.neo4j_uri = os.getenv("NEO4J_URI")
+        self.neo4j_user = os.getenv("NEO4J_USERNAME")
+        self.neo4j_password = os.getenv("NEO4J_PASSWORD")
 
     def connect_to_neo4j(self):
         self.driver = GraphDatabase.driver(self.neo4j_uri, auth=(self.neo4j_user, self.neo4j_password))
@@ -49,8 +48,8 @@ class DocumentVectorizer:
                 properties = record["properties"]
                 skills_str = ', '.join(record["skills"]) if record["skills"] else "No skills listed"
                 properties["skills"] = skills_str
+                id_to_metadata[record["id"]] = properties
         return id_to_metadata
-    
 
     def load_pdfs(self, path):
         if os.path.isdir(path):
@@ -61,7 +60,6 @@ class DocumentVectorizer:
             raise ValueError("Unsupported file format or path. Please provide a valid PDF file or directory containing PDFs.")
         documents = loader.load()
         return documents
-    
 
     async def create_vector_store(self, path):
         self.connect_to_neo4j()
@@ -96,10 +94,6 @@ class DocumentVectorizer:
         self.close()
         print("Vector store created successfully.")
 
-
-
-
-
     def retrieve_documents(self, query, k=3, threshold=0.5):
         vector_db = Chroma(persist_directory=self.vector_store_path, embedding_function=self.embeddings)
         retrieved_documents = vector_db.similarity_search_with_score(query, k=k)
@@ -110,16 +104,27 @@ class DocumentVectorizer:
         sources = [{'score': round(score, 3), 'document': doc.page_content, 'metadata': doc.metadata} for doc, score in relevant_docs]
         return sources
 
+
 if __name__ == "__main__":
-    embedding = OpenAIEmbeddings()  # Use OpenAI embeddings
+    # Load OpenAI API key from environment variables
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    embedding = OpenAIEmbeddings(openai_api_key=openai_api_key)  # Use OpenAI embeddings
+    inside_docker = os.getenv("INSIDE_DOCKER", "False").lower() == "true"
+
+    # Determine paths dynamically based on environment
+    if inside_docker:
+        pdfs_path = "/app/pdfs"
+        vector_store_path = "/app/vector_store"
+    else:
+        pdfs_path = "chatbot_api/pdfs"
+        vector_store_path = "./vector_store"
+
     vectorizer = DocumentVectorizer(
         embeddings=embedding,
-        vector_store_path="/app/vector_store"
-        # vector_store_path="/home/mdi220/Simulations/Git_repository/RAG-REALPYTHON/chatbot_docker/chatbot_api/vector_store",
+        vector_store_path=vector_store_path
     )
 
     # Run the async function in the event loop
     asyncio.run(
-        vectorizer.create_vector_store("/app/pdfs")
-        # vectorizer.create_vector_store("/home/mdi220/Simulations/Git_repository/RAG-REALPYTHON/chatbot_docker/chatbot_api/pdfs")
+        vectorizer.create_vector_store(pdfs_path)
     )

@@ -30,6 +30,8 @@ services:
           memory: "768M"
     networks:
       - isolated_network
+    volumes:
+      - ./vector_store:/app/vector_store
 
   chatbot_frontend:
     build:
@@ -50,6 +52,8 @@ services:
 
   certbot:
     image: certbot/certbot
+    ports:
+      - "80:80"
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt
       - /var/lib/letsencrypt:/var/lib/letsencrypt
