@@ -26,7 +26,7 @@ with st.sidebar:
     )
 
     st.markdown(
-        """- Can you elaborate on the methodologies and techniques you employed in your recent publication on 'Multiplex Image Machine Learning'?"""
+        """- Could you explain the main idea in your paper titled 'MIML: Multiplex Image Machine Learning for High Precision Cell Classification via Mechanical Traits within Microfluidic Systems'?"""
     )
 
     st.markdown(
